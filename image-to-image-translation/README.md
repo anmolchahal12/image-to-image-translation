@@ -2,6 +2,24 @@
 
 Learn a mapping from simulated X-ray phase-contrast images to projected-thickness images with PyTorch. This supervised inverse-problem model learns from paired simulations, where conventional reconstruction would typically use multiple measurements and a physical imaging model.
 
+## Visual examples
+
+**Phase contrast → projected thickness**
+
+Each comparison shows the input image on the left, the ground-truth target in the center, and the prediction on the right.
+
+![Phase-contrast input, ground-truth thickness, and prediction for a large-feature example](assets/comparison-03.png)
+
+### More examples
+
+![Input, ground truth, and prediction for example 1](assets/comparison-01.png)
+
+![Input, ground truth, and prediction for example 2](assets/comparison-02.png)
+
+![Input, ground truth, and prediction for a fine-texture example](assets/comparison-04.png)
+
+*Figures supplied by the project author from prior work. The generating model, checkpoint, data split, and display scales have not been verified, so these examples are illustrative and are not benchmark results for the MCNN implementation in this repository.*
+
 ## Setup
 
 Use Python 3.10 or newer:
